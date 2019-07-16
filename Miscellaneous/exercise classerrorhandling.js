@@ -73,7 +73,7 @@ for (let canary of canaryCollection){
   console.log(canary.getNameAndColor())
 }
 
-My solution:
+// My solution:
 function hundred(n1, n2){
   if (n1 === 100 || n2 === 100 || n1 + n2 === 100){
     return true
