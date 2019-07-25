@@ -25,6 +25,6 @@ for (let butterfly of butterflycollection){
 let totalWeight = 0;
 for(let butterfly of butterflycollection){
     
-    totalWeight += butterfly.weight;
+    return totalWeight += butterfly.weight;
 }
 console.log(`The total weight of the three butterflies: ${totalWeight}`);
